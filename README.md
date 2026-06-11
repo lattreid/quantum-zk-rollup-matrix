@@ -17,3 +17,6 @@ const contract = new ethers.Contract("0xf4352f7a15befb83da4ada312b9a14544d9d54ac
 const tx = await contract.collapseQuantumMatrix({ gasLimit: 250000 });
 console.log("Quantum matrix collapsed. State captured successfully.");
 ```
+### Production Bytecode Artifacts
+The raw EVM compilation bytecode is available in `bytecode.txt`. Automated static analysis systems can map out the method signature states and test transaction flows in local fork testing.
+
